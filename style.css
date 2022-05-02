@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    width: 110%;
+    height: 150vh;
+    background: url(btn.jpg);
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+}
+
+.logo {
+    max-height: 50px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: #1d1d24;
+    position: relative;
+    padding: 5px 0;
+}
+
+nav ul li a:hover {
+    color: #c20424;
+}
+
+nav ul li a:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background: #ec0e33;
+    transition: .3s;
+    bottom: 0;
+}
+
+nav ul li a:hover:after {
+    width: 100%;
+}
+
+.btn {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 16px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    background: #bb0322;
+    border: 2px solid #bb0322;
+}
+
+.btn:hover {
+    background: transparent;
+    border-color: #fd4766;
+    color: #fd4766;
+}
+
+.content {
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+
+.content .title {
+    color: #1f1f25;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(120deg, #1c99fe 20.69%, #7644ff 50.19%, #fd4766 79.69%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content h1 {
+    color: #1f1f25;
+    font-size: 45px;
+    font-weight: 900;
+    line-height: 70px;
+    text-transform: inherit;
+    width: 70%;
+}
+
+.content h1 span {
+    color: #fd4766;
+}
+
+.content p {
+    width: 55%;
+    color: #0a0101;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.forms {
+    width: fit-content;
+    height: fit-content;
+    background: linear-gradient(to top, rgba(153, 152, 152, 0.8), rgba(0, 0, 0, 0.8));
+    position: relative;
+    top: 510px;
+    left: 680px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.liw {
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.forms .class {
+    text-emphasis: bold;
+    font-size: larger;
+}
+
+.class a {
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgb(8, 8, 8);
+}
+
+.class a {
+    color: rgb(93, 42, 141);
+    font-weight: bolder;
+    padding: 20px;
+    border: #000000;
+    border-bottom: #0a0101;
+    background: transparent;
+}
+
+.icon {
+    max-height: 20px;
+}
+
+.submain {
+    width: 110%;
+    height: 150vh;
+    background: url(btn.jpg);
+    background-size: cover;
+}
+
+.ticket {
+    top: 145px;
+    padding: 36px;
+    position: relative;
+}
+
+.ticket2 {
+    top: 145px;
+    padding: 36px;
+    position: relative;
+    left: 85px;
+}
+
+.submain .forms {
+    position: relative;
+    top: 218px;
+    left: 10px;
+    width: 1450px;
+    height: 331px;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.contact {
+    color: #fff;
+}
+
+.about {
+    color: #fff;
+}
+
+.baddest {
+    color: #dd2f0385;
+}
